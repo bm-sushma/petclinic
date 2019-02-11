@@ -43,4 +43,4 @@ public class PetClinic {
 		//driver.findElement(By.xpath("//div[@id='main-navbar']/ul/li[3]/a")).click();
 		
 	}
-}
+} 
