@@ -15,16 +15,16 @@ public class PetClinic {
 	@BeforeSuite
 
 	public void setup(){
-		//System.setProperty("webdriver.chrome.driver", "D:\\Users\\maudas\\Downloads\\chromedriver_win32 (4)\\chromedriver.exe");
-		//driver=new ChromeDriver();
-		driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		driver=new ChromeDriver();
+		//driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
-		driver.get("https://s3-us-west-2.amazonaws.com/java-demo-bucket/elb-petclinic-dns.txt ");
-		String url=driver.findElement(By.xpath("//body")).getText();
-		driver.get(url);
+		driver.get("http://54.214.95.28:8081/petclinic/");
+		//String url=driver.findElement(By.xpath("//body")).getText();
+		//driver.get(url);
 		
-		driver.get(url);
+		//driver.get(url);
 		
 	}
 
