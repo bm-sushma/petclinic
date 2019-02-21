@@ -9,7 +9,7 @@ The "canonical" implementation is now based on Spring Boot, Thymeleaf and [aggre
 ## Understanding the Spring Petclinic application with a few diagrams
 [See the presentation here](http://fr.slideshare.net/AntoineRey/spring-framework-petclinic-sample-application) (2017 update)
 
-## Running petclinic locally
+## Running petclinic locally hi how are you
 ```
 	git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
 	cd spring-framework-petclinic
