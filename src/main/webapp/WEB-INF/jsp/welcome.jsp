@@ -13,10 +13,8 @@ int count=0;
             <img class="img-responsive" src="${petsImage}"/>
         </div>
 		
-		if(count=0, count<500, count++)
-		{
         "<h2>hi people We strive to provide the best veterinary medicine coupled with the most compassionate, collaborative care in the Region - Welcome to DAC" +count"</h2>"
-		}
+		
     </div>
     <br/><br/><br/><br/><br/>
    
